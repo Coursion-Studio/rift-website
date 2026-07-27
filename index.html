@@ -26,7 +26,7 @@
         <a href="#review">Review</a>
         <a href="#inside">What's inside</a>
         <a href="apps.html">Apps</a>
-        <a href="https://github.com/Coursion-Studio/rift-ide/releases/latest">Download</a>
+        <a href="https://github.com/Coursion-Studio/rift-website/releases/latest">Download</a>
       </div>
     </nav>
 
@@ -46,7 +46,7 @@
           <code>brew install --cask coursion-studio/tap/rift</code>
           <button class="copy-btn" type="button" aria-label="Copy install command">Copy</button>
         </div>
-        <a class="btn primary" href="https://github.com/Coursion-Studio/rift-ide/releases/latest">
+        <a class="btn primary" href="https://github.com/Coursion-Studio/rift-website/releases/latest">
           Download&nbsp;.dmg
         </a>
       </div>
@@ -335,7 +335,7 @@
 
     <footer>
       <div class="links">
-        <a href="https://github.com/Coursion-Studio/rift-ide/releases/latest">Download</a>
+        <a href="https://github.com/Coursion-Studio/rift-website/releases/latest">Download</a>
         <a href="apps.html">Apps</a>
         <a href="privacy.html">Privacy</a>
         <a href="mailto:kuraydev.io@gmail.com">Support</a>
@@ -416,7 +416,7 @@
         }) || (assets || [])[0];
       };
 
-      fetch("https://api.github.com/repos/Coursion-Studio/rift-ide/releases")
+      fetch("https://api.github.com/repos/Coursion-Studio/rift-website/releases")
         .then(function (r) { return r.ok ? r.json() : []; })
         .then(function (releases) {
           releases = releases || [];
