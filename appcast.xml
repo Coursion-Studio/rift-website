@@ -3,7 +3,7 @@
   <channel>
     <title>Rift</title>
     <link>https://rift.coursion.studio/appcast.xml</link>
-    <description>Updates for Rift — review, blame & verify AI-generated code from Coursion.</description>
+    <description>Updates for Rift — review, blame &amp; verify AI-generated code from Coursion.</description>
     <language>en</language>
   
     
@@ -23,23 +23,6 @@
 <li>Now installable from the public tap: brew install --cask coursion-studio/tools/rift</li>
 </ul>]]></description>
       <enclosure url="https://github.com/Coursion-Studio/rift-website/releases/download/v1.1.0/Rift-1.1.0.dmg" type="application/octet-stream" sparkle:edSignature="f+++4gu3Q8PlekRvCWM94aS1PpE92ILy/vQug1rgmNOPt7yr5m1WAyFJ2nexLAQuZ82XLNeNEHG01noV/etWBw==" length="18963670" />
-    </item>
-<item>
-      <title>Version 1.0.0</title>
-      <pubDate>Wed, 12 Aug 2026 23:28:09 +0300</pubDate>
-      <sparkle:version>4</sparkle:version>
-      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>First public release of Rift — a native macOS cockpit for reviewing, blaming, and verifying AI-generated code.</p>
-<ul>
-<li>Agent panel with drag-and-drop file context, paste-as-attachment, and @-mentions</li>
-<li>Per-line origin (blame) and agent-session attribution in the Inspector</li>
-<li>On-device risk triage on staged diffs, with deep Claude review on demand</li>
-<li>Monaco-backed editor, diffs, and inline staging</li>
-<li>PR review threads alongside the code</li>
-<li>Hardened against untrusted-repo git config execution</li>
-</ul>]]></description>
-      <enclosure url="https://github.com/Coursion-Studio/rift-website/releases/download/v1.0.0/Rift-1.0.0.dmg" type="application/octet-stream" sparkle:edSignature="b4rHP2ypZCKX5gulSmeNM6y0B476yc+TnxBXNpuUboSL/IJp7Ns8Bi5MFg8gm+CmzPdsj8iHH7JUixTvin5dDg==" length="18629640" />
     </item>
 </channel>
 </rss>
