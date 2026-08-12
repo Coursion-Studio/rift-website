@@ -6,7 +6,25 @@
     <description>Updates for Rift — review, blame & verify AI-generated code from Coursion.</description>
     <language>en</language>
   
+    
     <item>
+      <title>Version 1.1.0</title>
+      <pubDate>Thu, 13 Aug 2026 00:13:29 +0300</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>Custom 3D iconography, a reworked agent chat, and a public Homebrew tap.</p>
+<ul>
+<li>Agent chat: drag files in from the tree or tab bar, paste code as an attachment chip, and @-mention files to add context</li>
+<li>Chat history: New task now archives rather than discards, and reopening a past task resumes the agent session</li>
+<li>Message actions: copy, retry, and edit-and-resend on any turn; code blocks can be inserted at the cursor</li>
+<li>Custom soft-3D glyphs across empty states and starter cards</li>
+<li>PR comments moved into the Inspector, alongside the other per-file review surfaces</li>
+<li>Now installable from the public tap: brew install --cask coursion-studio/tools/rift</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/Coursion-Studio/rift-website/releases/download/v1.1.0/Rift-1.1.0.dmg" type="application/octet-stream" sparkle:edSignature="f+++4gu3Q8PlekRvCWM94aS1PpE92ILy/vQug1rgmNOPt7yr5m1WAyFJ2nexLAQuZ82XLNeNEHG01noV/etWBw==" length="18963670" />
+    </item>
+<item>
       <title>Version 1.0.0</title>
       <pubDate>Wed, 12 Aug 2026 23:28:09 +0300</pubDate>
       <sparkle:version>4</sparkle:version>
